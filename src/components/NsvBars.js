@@ -11,10 +11,13 @@ const NsvBars = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#link"><Link to="/">React.Memo</Link></Nav.Link>
+                        <Nav.Link href="#link"><Link to="/">Home </Link></Nav.Link>
+                            <Nav.Link href="#link"><Link to="/memo">React.Memo</Link></Nav.Link>
                             <Nav.Link href="#link"><Link to="/useMemo">UseMemo</Link></Nav.Link>
                             <Nav.Link href="#link"><Link to="/useCallback">UseCallback</Link></Nav.Link>
                             <Nav.Link href="#link"><Link to="/padre">Ejerc Independi </Link></Nav.Link>
+                            <Nav.Link href="#link"><Link to="/login">Login </Link></Nav.Link>
+                            <Nav.Link href="#link"><Link to="/salir">About </Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
