@@ -21,7 +21,6 @@ const useCounter = () => {
         handleSumar,
         handleRestar,
         handleReset
-
     }
        
     
